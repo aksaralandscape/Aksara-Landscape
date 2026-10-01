@@ -21,6 +21,7 @@ import rooftopImage from "../assets/project-rooftop.jpg";
 import verticalImage from "../assets/project-vertical.jpg";
 import villaImage from "../assets/project-villa.jpg";
 import minimalImage from "../assets/project-minimal.jpg";
+import verticalGardenServiceImage from "../assets/images/regenerated_image_1790865265503.webp";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -68,7 +69,7 @@ const services = [
     text: "Solusi taman indah dengan perawatan minimal dan hemat air.",
   },
   {
-    image: verticalImage,
+    image: verticalGardenServiceImage,
     title: "Vertical Garden",
     text: "Pemanfaatan dinding atau ruang vertikal menjadi taman yang asri dan estetik.",
   },
