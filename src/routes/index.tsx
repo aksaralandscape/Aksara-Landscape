@@ -21,7 +21,6 @@ import rooftopImage from "../assets/project-rooftop.jpg";
 import verticalImage from "../assets/project-vertical.jpg";
 import villaImage from "../assets/project-villa.jpg";
 import minimalImage from "../assets/project-minimal.jpg";
-import verticalGardenServiceImage from "../assets/images/regenerated_image_1790865265503.webp";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -46,9 +45,10 @@ export const Route = createFileRoute("/")({
 
 const services = [
   {
-    image: villaImage,
-    title: "Taman Tropis",
-    text: "Menghadirkan nuansa alam tropis yang rimbun dan menyegarkan di halaman rumah Anda.",
+    image:
+      "https://res.cloudinary.com/di6ziqvtp/image/upload/v1791116885/832a90bc-8942-46a3-8e62-8b30db761cd6.png",
+    title: "Taman Minimalis",
+    text: "Desain taman simpel, modern, dan elegan yang memaksimalkan fungsi ruang dengan perawatan praktis.",
   },
   {
     image:
@@ -64,12 +64,13 @@ const services = [
   },
   {
     image:
-      "https://res.cloudinary.com/di6ziqvtp/image/upload/v1789652062/25cbb80a-6db7-4448-b7c5-5f6d03861610.png",
+      "https://res.cloudinary.com/di6ziqvtp/image/upload/v1791116927/b5caf9ee-e07d-475f-8252-7108a2ef305c.png",
     title: "Taman Kering",
     text: "Solusi taman indah dengan perawatan minimal dan hemat air.",
   },
   {
-    image: verticalGardenServiceImage,
+    image:
+      "https://res.cloudinary.com/di6ziqvtp/image/upload/v1791116904/c52dfd4d-cc3e-46d9-8630-2e34f0b42eb9.png",
     title: "Vertical Garden",
     text: "Pemanfaatan dinding atau ruang vertikal menjadi taman yang asri dan estetik.",
   },
