@@ -21,7 +21,7 @@ import rooftopImage from "../assets/project-rooftop.jpg";
 import verticalImage from "../assets/project-vertical.jpg";
 import villaImage from "../assets/project-villa.jpg";
 import minimalImage from "../assets/project-minimal.jpg";
-import zenGardenImage from "../assets/images/regenerated_image_1791202081394.png";
+import zenGardenImage from "../assets/images/regenerated_image_1791204699348.jpg";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -84,7 +84,7 @@ const services = [
 const projects = [
   [modernImage, "Taman Rumah Modern"],
   [rooftopImage, "Rooftop Garden Office"],
-  [verticalImage, "Taman Vertikal Lobby"],
+  [verticalImage, "Taman Vertikal Perumahan"],
   [villaImage, "Taman Tropis"],
   [minimalImage, "Taman Minimalis"],
 ];
