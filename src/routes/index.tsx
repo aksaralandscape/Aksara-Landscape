@@ -21,6 +21,7 @@ import rooftopImage from "../assets/project-rooftop.jpg";
 import verticalImage from "../assets/project-vertical.jpg";
 import villaImage from "../assets/project-villa.jpg";
 import minimalImage from "../assets/project-minimal.jpg";
+import zenGardenImage from "../assets/images/regenerated_image_1791202081394.png";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -57,8 +58,7 @@ const services = [
     text: "Pembuatan tempat bersantai yang nyaman dengan material alami pilihan.",
   },
   {
-    image:
-      "https://res.cloudinary.com/di6ziqvtp/image/upload/v1789651844/55cfe003-955c-4796-a0ab-8c2cb09f1b50.png",
+    image: zenGardenImage,
     title: "Zen Garden / Japanese Garden",
     text: "Taman bergaya Jepang yang minimalis, memberikan ketenangan dan kedamaian.",
   },
