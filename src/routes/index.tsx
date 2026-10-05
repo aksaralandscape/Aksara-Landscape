@@ -85,7 +85,7 @@ const projects = [
   [modernImage, "Taman Rumah Modern"],
   [rooftopImage, "Rooftop Garden Office"],
   [verticalImage, "Taman Vertikal Lobby"],
-  [villaImage, "Taman Villa Tropis"],
+  [villaImage, "Taman Tropis"],
   [minimalImage, "Taman Minimalis"],
 ];
 
